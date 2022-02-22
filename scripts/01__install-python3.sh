@@ -6,8 +6,7 @@
 yum install -y \
     gcc \
     python3 \
-    python3-devel \
-    python3-pip
+    python3-devel
 
 # upgrade Pip
-pip3 install -U pip
+python3 -m pip install -U pip

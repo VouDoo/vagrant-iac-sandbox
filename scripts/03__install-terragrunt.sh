@@ -5,7 +5,7 @@
 # related documentations:
 # - Install Terragrunt <https://terragrunt.gruntwork.io/docs/getting-started/install/>
 
-VERSION=$(python -m lastversion gruntwork-io/terragrunt)
+VERSION=$(python3 -m lastversion gruntwork-io/terragrunt)
 
 # download binary
 curl -fsSL "https://github.com/gruntwork-io/terragrunt/releases/download/v${VERSION}/terragrunt_linux_amd64" \
