@@ -8,7 +8,7 @@
 VERSION=$(python -m lastversion gruntwork-io/terragrunt)
 
 # download binary
-curl -L "https://github.com/gruntwork-io/terragrunt/releases/download/v${VERSION}/terragrunt_linux_amd64" \
+curl -fsSL "https://github.com/gruntwork-io/terragrunt/releases/download/v${VERSION}/terragrunt_linux_amd64" \
     -o /usr/local/bin/terragrunt
 
 # add execution permission to binary
