@@ -6,10 +6,8 @@
 # - Get LocalStack Up and Running <https://docs.localstack.cloud/get-started/>
 # - AWS Command Line Interface (CLI) with LocalStack <https://docs.localstack.cloud/integrations/aws-cli/>
 
-VERSION=0.14.0
-
 # install LocalStack Python module
-pip3 install --user localstack==${VERSION}
+pip3 install --user localstack
 
 # install awscli Python module
 pip3 install --user awscli

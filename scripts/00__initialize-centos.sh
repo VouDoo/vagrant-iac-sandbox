@@ -8,6 +8,7 @@ yum update -y
 # install base packages
 yum install -y \
     yum-utils \
+    curl \
     unzip \
     vim \
     git

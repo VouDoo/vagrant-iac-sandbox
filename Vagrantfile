@@ -33,8 +33,9 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "scripts/01__install-python3.sh"
   config.vm.provision "shell", path: "scripts/01__install-docker.sh"
   config.vm.provision "shell", path: "scripts/01__install-hashicorp.sh"
-  config.vm.provision "shell", path: "scripts/01__install-terragrunt.sh"
   config.vm.provision "shell", path: "scripts/01__install-vundlevim.sh", privileged: false
+  config.vm.provision "shell", path: "scripts/02__install-lastversion.sh"
+  config.vm.provision "shell", path: "scripts/02__install-ansible.sh"
   config.vm.provision "shell", path: "scripts/02__install-localstack.sh", privileged: false
-  config.vm.provision "shell", path: "scripts/02__install-ansible.sh", privileged: false
+  config.vm.provision "shell", path: "scripts/03__install-terragrunt.sh"
 end
