@@ -1,8 +1,8 @@
 #!/bin/sh
 #
-# install VundleVim and add default configuration
+# install and configure VundleVim.
 #
-# related documentations:
+# related documentation(s):
 # - VundleVim Github page <https://github.com/VundleVim/Vundle.vim#quick-start>
 # - fugitive.vim Github page <https://github.com/tpope/vim-fugitive>
 # - vim-airline Github page <https://github.com/vim-airline/vim-airline>

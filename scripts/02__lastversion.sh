@@ -1,8 +1,8 @@
 #!/bin/sh
 #
-# install lastversion tool.
+# install lastversion.
 #
-# related documenations:
+# related documenation(s):
 # - lastversion Github page <https://github.com/dvershinin/lastversion>
 
 # install Python module

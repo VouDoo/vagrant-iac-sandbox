@@ -5,13 +5,15 @@
 # update all packages
 yum update -y
 
-# install base packages
+# install packages
 yum install -y \
     yum-utils \
     curl \
     unzip \
     vim \
-    git
+    git \
+    bash-completion \
+    bash-completion-extras
 
 # enable password authentication for SSH connections
 sed -i 's/#PasswordAuthentication.*/PasswordAuthentication yes/' /etc/ssh/sshd_config

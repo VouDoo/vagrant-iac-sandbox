@@ -2,7 +2,7 @@
 #
 # install Docker Engine.
 #
-# related documentations:
+# related documentation(s):
 # - Install Docker Engine on CentOS <https://docs.docker.com/engine/install/centos/>
 
 # add Yum repository

@@ -2,7 +2,7 @@
 #
 # install Ansible.
 #
-# related documentations:
+# related documentation(s):
 # - Installing Ansible <https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html>
 
 # install Ansible Python module

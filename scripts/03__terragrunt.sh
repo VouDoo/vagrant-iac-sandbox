@@ -2,7 +2,7 @@
 #
 # install Terragrunt.
 #
-# related documentations:
+# related documentation(s):
 # - Install Terragrunt <https://terragrunt.gruntwork.io/docs/getting-started/install/>
 
 VERSION=$(python3 -m lastversion gruntwork-io/terragrunt)
