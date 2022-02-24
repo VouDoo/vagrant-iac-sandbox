@@ -14,6 +14,7 @@ The virtual machine comes with a list of pre-installed applications.
 |---|---|
 | Python 3 | High-level scripting language interpretor |
 | Docker Engine | Persistent process that manages containers and handles container objects |
+| Jenkins | Automation tool with plugins built for Continuous Integration purposes |
 | LocalStack | Cloud service emulator that mocks AWS public cloud services |
 | AWS CLI | Command-line interface tool to control AWS public cloud services |
 | Ansible | Infrastructure as code tool that automates cloud provisioning, configuration management, application deployment, and more... |
@@ -72,6 +73,14 @@ _Ensure that you execute this command as `vagrant` user, not as root!_
 ```sh
 localstack start --docker --detached
 ```
+
+### Access Jenkins
+
+Jenkins service is started at VM provisioning.
+
+You can access the Jenkins WebUI from your host: `http://<vm_ip_address>:8080/`
+
+_See [Get the IP address of the VM](#get-the-ip-address-of-the-vm) if needed._
 
 ### Install Vim plugins
 

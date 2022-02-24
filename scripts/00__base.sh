@@ -13,7 +13,8 @@ yum install -y \
     vim \
     git \
     bash-completion \
-    bash-completion-extras
+    bash-completion-extras \
+    java-11-openjdk
 
 # enable password authentication for SSH connections
 sed -i 's/#PasswordAuthentication.*/PasswordAuthentication yes/' /etc/ssh/sshd_config

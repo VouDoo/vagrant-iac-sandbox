@@ -32,6 +32,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "scripts/00__base.sh"
   config.vm.provision "shell", path: "scripts/01__python3.sh"
   config.vm.provision "shell", path: "scripts/01__docker_engine.sh"
+  config.vm.provision "shell", path: "scripts/01__jenkins.sh"
   config.vm.provision "shell", path: "scripts/01__hashicorp.sh"
   config.vm.provision "shell", path: "scripts/01__vundlevim.sh", privileged: false
   config.vm.provision "shell", path: "scripts/02__ansible.sh"
